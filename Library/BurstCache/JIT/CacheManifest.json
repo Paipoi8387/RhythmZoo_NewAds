@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-14T05:28:42.2575504Z"
+      "LastWriteTime": "2022-07-14T08:47:44.0271667Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -15,7 +15,7 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-14T05:28:40.6395476Z"
+      "LastWriteTime": "2022-07-14T08:47:44.2687813Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -23,11 +23,11 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-14T05:28:41.8142271Z"
+      "LastWriteTime": "2022-07-14T08:47:44.2877515Z"
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-14T05:28:41.4822448Z"
+      "LastWriteTime": "2022-07-14T08:47:44.2317208Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -35,7 +35,7 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-14T05:28:41.4443187Z"
+      "LastWriteTime": "2022-07-14T08:47:44.0823505Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -67,11 +67,11 @@
       "AssemblyDependencyIndices": [
         0,
         3,
+        7,
         1,
         5,
         4,
-        2,
-        7
+        2
       ]
     },
     {
@@ -109,11 +109,22 @@
       "AssemblyDependencyIndices": [
         2,
         8,
+        9,
         1,
         4,
         3,
-        9,
         6
+      ]
+    },
+    {
+      "FullName": "Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 15221144590354301703,
+      "ModuleHash": "7b601ff16cc6f460f5934cae586e409b",
+      "LinkName": "801E9A000BB37B05",
+      "AssemblyDependencyIndices": [
+        5,
+        4,
+        1
       ]
     }
   ]

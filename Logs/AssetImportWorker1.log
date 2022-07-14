@@ -15,7 +15,7 @@ C:/Users/meida/RhythmZoo_NewAds
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58762
+59443
 Successfully changed project path to: C:/Users/meida/RhythmZoo_NewAds
 C:/Users/meida/RhythmZoo_NewAds
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/meida/RhythmZoo_NewAds
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 473.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 322.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -55,105 +55,128 @@ Initialize engine version: 2021.3.5f1 (40eb3a945986)
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
-    Vendor:   Intel
-    VRAM:     16176 MB
-    Driver:   27.20.100.9621
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   27.21.14.6259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.039390 seconds.
+Registered in 0.016654 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 473.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 226.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.029 seconds
+- Completed reload, in  1.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3030ms)
-		BeginReloadAssembly (324ms)
+	ReloadAssembly (1631ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (2213ms)
-			LoadAssemblies (313ms)
+		EndReloadAssembly (1176ms)
+			LoadAssemblies (188ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (509ms)
+			SetupTypeCache (293ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (114ms)
-			SetupLoadedEditorAssemblies (1379ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (730ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (245ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (474ms)
+				InitializePlatformSupportModulesInManaged (153ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (227ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (429ms)
-				ProcessInitializeOnLoadMethodAttributes (225ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.050194 seconds.
+Registered in 0.024807 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 476.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 214.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\meida\RhythmZoo_NewAds\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <3df1727680a4410c8922c5d71cde3a04>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <3df1727680a4410c8922c5d71cde3a04>:0 
+  at Google.ProjectSettings.Save () [0x000a1] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:828 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at Z:/tmp/tmp.MQ461w6xyu/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:1007)
+Google.IOSResolver:.cctor () (at Z:/tmp/tmp.MQ461w6xyu/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:701)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  5.240 seconds
+- Completed reload, in  2.814 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5243ms)
-		BeginReloadAssembly (504ms)
+	ReloadAssembly (2816ms)
+		BeginReloadAssembly (353ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (163ms)
-		EndReloadAssembly (4228ms)
-			LoadAssemblies (308ms)
+			CreateAndSetChildDomain (168ms)
+		EndReloadAssembly (2183ms)
+			LoadAssemblies (177ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1065ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (240ms)
-			SetupLoadedEditorAssemblies (2381ms)
+			SetupTypeCache (563ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (172ms)
+			SetupLoadedEditorAssemblies (1138ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (100ms)
+				InitializePlatformSupportModulesInManaged (43ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (477ms)
-				BeforeProcessingInitializeOnLoad (474ms)
-				ProcessInitializeOnLoadAttributes (1138ms)
-				ProcessInitializeOnLoadMethodAttributes (152ms)
-				AfterProcessingInitializeOnLoad (38ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (215ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (594ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4162 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 61 unused Assets / (222.9 KB). Loaded Objects now: 4611.
-Memory consumption went from 160.3 MB to 160.1 MB.
-Total: 6.627700 ms (FindLiveObjects: 0.592900 ms CreateObjectMapping: 0.443200 ms MarkObjects: 5.312900 ms  DeleteObjects: 0.257500 ms)
+Memory consumption went from 160.4 MB to 160.2 MB.
+Total: 6.888800 ms (FindLiveObjects: 0.445500 ms CreateObjectMapping: 0.249300 ms MarkObjects: 5.905900 ms  DeleteObjects: 0.285300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,109 +191,93 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 616521.496202 seconds.
-  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png
-  artifactKey: Guid(1a2723ddf964e4565a408007ab387283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png using Guid(1a2723ddf964e4565a408007ab387283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd52a547a49534cd0b3d3a4d9bd73fb9') in 0.429814 seconds 
+  Time since last request: 653302.445664 seconds.
+  path: Assets/NCMB/NCMBSettings.cs
+  artifactKey: Guid(2105e3b274a35453f89279fbef307f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NCMB/NCMBSettings.cs using Guid(2105e3b274a35453f89279fbef307f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81406dba3f55ac69cf3d446befb71a1d') in 0.056471 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Image/コイン.png
-  artifactKey: Guid(b0103d14dab45bd4bb569585d822e6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/コイン.png using Guid(b0103d14dab45bd4bb569585d822e6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f57ab58044f879a88fb6290b5606cb') in 0.060277 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/ラノベPOP.otf
+  artifactKey: Guid(a386bf2d1b8dbc04894673a3a0920efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ラノベPOP.otf using Guid(a386bf2d1b8dbc04894673a3a0920efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0816e4c19d8363aa0c57338d11d03df6') in 0.315605 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png
-  artifactKey: Guid(77d9c04b43d404f44ab60d7159b279bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png using Guid(77d9c04b43d404f44ab60d7159b279bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d9c857777092627f46984b39f88da2') in 0.107944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Image/Dondon/カーテン.png
-  artifactKey: Guid(88218ab307f9fe745bf4ee7a3857e774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Dondon/カーテン.png using Guid(88218ab307f9fe745bf4ee7a3857e774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d607d951de7e770bb43cfe180beb37') in 0.108939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png
-  artifactKey: Guid(4c69db43dbd474a2987be5807129b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png using Guid(4c69db43dbd474a2987be5807129b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb5ea33e257e5103ec4e172c0c37040') in 0.231294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png
-  artifactKey: Guid(898f886a39d714db5b90d2c36676c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png using Guid(898f886a39d714db5b90d2c36676c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50b35429b3b938a0543304448eada5b') in 0.069163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Image/Clap/アイドル_用意.png
-  artifactKey: Guid(1a1b0973ef5fa4146b6ca23820d139df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Clap/アイドル_用意.png using Guid(1a1b0973ef5fa4146b6ca23820d139df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c731f5b4731f36b25869863fdb9540b3') in 0.216017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Image/Clap/アイドル_両方下げ.png
-  artifactKey: Guid(07b2213544e70964ebb6f33272637f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Clap/アイドル_両方下げ.png using Guid(07b2213544e70964ebb6f33272637f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801147daeb37616e854fdf13d8d948a4') in 0.232975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Image/Dondon/クールアイコン.png
-  artifactKey: Guid(aa2dadb74df1abe4eb9f0c6d9883fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Dondon/クールアイコン.png using Guid(aa2dadb74df1abe4eb9f0c6d9883fd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9af88201c4a43f3cd97d1e8bdcb32c') in 0.063127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbd9f990aa034ace07aa703db358bec') in 0.056173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png
-  artifactKey: Guid(cfead63ff9d9d48e2b4ba3c2dee7cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png using Guid(cfead63ff9d9d48e2b4ba3c2dee7cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f3f5149172a155ef54d69a1514a6ff') in 0.067870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Image/Clap/アイドル_猫.png
-  artifactKey: Guid(719cfd64294091f45ba0ac8eb2ad1512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Clap/アイドル_猫.png using Guid(719cfd64294091f45ba0ac8eb2ad1512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0ef8bb12c501fddc16aa1a952f58b3') in 0.239490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Image/Clap/イヌ_立ち.png
-  artifactKey: Guid(25d0c207bd80dbe42b6cd19bf3b4d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Clap/イヌ_立ち.png using Guid(25d0c207bd80dbe42b6cd19bf3b4d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e138fadaec0c62bf438e330927f2ad') in 0.150556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Image/Dondon/ゴリラ_アイコン.png
-  artifactKey: Guid(663fcf949168b3e4688b454bd181608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Dondon/ゴリラ_アイコン.png using Guid(663fcf949168b3e4688b454bd181608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eaae5737b47e76c5de891b9746d52b') in 0.138065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Image/Dondon/ゴリラ_笑顔.png
-  artifactKey: Guid(830b1274ae4ca804ab890bcb512e76c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Dondon/ゴリラ_笑顔.png using Guid(830b1274ae4ca804ab890bcb512e76c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225015332eea553260c1ef0f0385c914') in 0.357326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Image/Clap/アイドル_犬.png
-  artifactKey: Guid(03a935fe7966e03428b4200125e1bf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Clap/アイドル_犬.png using Guid(03a935fe7966e03428b4200125e1bf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1be13bf32741a9d83ad53db70b40e05') in 0.223649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Image/Dram/シンバル_上.png
-  artifactKey: Guid(381f52d4373ca5449b101e52b27ce56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Dram/シンバル_上.png using Guid(381f52d4373ca5449b101e52b27ce56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddffd13e396e3619c5436d7c62180435') in 0.081265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Image/トロフィーアイコン.png
-  artifactKey: Guid(59e9849e8e464b44a8132b7c6e100628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/トロフィーアイコン.png using Guid(59e9849e8e464b44a8132b7c6e100628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4aa298b385ea59832b64e3e34abf9c') in 0.055947 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.IO.IOException: Sharing violation on path C:\Users\meida\RhythmZoo_NewAds\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x00007] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at Google.XmlUtilities.ParseXmlTextFileElements (System.String filename, Google.Logger logger, Google.XmlUtilities+ParseElement parseElement) [0x0000f] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\XmlUtilities.cs:104 
+  at Google.ProjectSettings.Load () [0x00012] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:777 
+  at Google.ProjectSettings.LoadIfEmpty () [0x0001b] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:558 
+  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue, Google.SettingsLocation location) [0x0002b] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:606 
+  at Google.ProjectSettings.GetBool (System.String name, System.Boolean defaultValue) [0x00000] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:619 
+  at Google.IOSResolver.get_VerboseLoggingEnabled () [0x00000] in Z:\tmp\tmp.MQ461w6xyu\third_party\unity\unity_jar_resolver\source\IOSResolver\src\IOSResolver.cs:1005 
+  at Google.IOSResolver..cctor () [0x001fe] in Z:\tmp\tmp.MQ461w6xyu\third_party\unity\unity_jar_resolver\source\IOSResolver\src\IOSResolver.cs:701 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2848ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2336ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (101ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4144 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (190.6 KB). Loaded Objects now: 4657.
+Memory consumption went from 163.8 MB to 163.6 MB.
+Total: 6.849900 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.350700 ms MarkObjects: 5.260500 ms  DeleteObjects: 0.691200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

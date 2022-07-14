@@ -36,8 +36,8 @@ namespace NCMB
 		[DllImport ("__Internal")]
 		private static extern void registerNotification (bool useAnalytics);
 
-		[DllImport ("__Internal")]
-		private static extern void registerNotificationWithLocation ();
+		//[DllImport ("__Internal")]
+		//private static extern void registerNotificationWithLocation ();
 
 		[DllImport ("__Internal")]
 		private static extern void clearAll ();
@@ -91,7 +91,7 @@ namespace NCMB
 		internal static void RegisterWithLocation ()
 		{
 			#if !UNITY_EDITOR
-	registerNotificationWithLocation();
+	//registerNotificationWithLocation();
 			#endif
 		}
 		#endif
