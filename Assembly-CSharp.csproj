@@ -60,7 +60,6 @@
     <Compile Include="Assets\Script\Keeper.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBUser.cs" />
     <Compile Include="Assets\Script\Button_Manager.cs" />
-    <Compile Include="Assets\NCMB\Script\NCMBPush.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBAddOperation.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBAppleAuthenManager.cs" />
     <Compile Include="Assets\NCMB\Script\Task\NCMBObjectTaskExtension.cs" />
@@ -71,7 +70,6 @@
     <Compile Include="Assets\NCMB\Script\NCMBRemoveOperation.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBTwitterParameters.cs" />
     <Compile Include="Assets\Script\Effect_Manager.cs" />
-    <Compile Include="Assets\NCMB\Script\Task\NCMBPushTaskExtension.cs" />
     <Compile Include="Assets\NCMB\Script\NamespaceDoc.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBConnection.cs" />
     <Compile Include="Assets\Script\HyperlinkUI.cs" />

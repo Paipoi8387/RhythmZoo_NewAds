@@ -196,8 +196,8 @@ namespace NCMB
 		IEnumerator IEClearAfterAFrame ()
 		{
 			yield return 0;
-			NCMBPush push = new NCMBPush ();
-			push.ClearAll ();
+			//NCMBPush push = new NCMBPush ();
+			//push.ClearAll ();
 		}
 		#endif
 		#endregion
