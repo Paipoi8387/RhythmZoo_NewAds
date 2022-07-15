@@ -49,8 +49,8 @@ namespace NCMB
 		}
 
 		#if UNITY_IOS
-		[DllImport ("__Internal")]
-		private static extern string getInstallationProperty ();
+		//[DllImport ("__Internal")]
+		//private static extern string getInstallationProperty ();
 		#endif
 
 		#region Const
@@ -372,7 +372,7 @@ namespace NCMB
 
 		//各ネイティブコードからInstallation情報を取得
 		//applicationName,appVersion,deviceType,timeZone(Asia/Tokyo)を取得
-		internal static void CreateInstallationProperty ()
+		/*internal static void CreateInstallationProperty ()
 		{
 			String jsonString = null;
 			#if UNITY_ANDROID && !UNITY_EDITOR
@@ -384,7 +384,7 @@ namespace NCMB
 			if (jsonString != null) {
 				installationDefaultProperty = Json.Deserialize (jsonString) as Dictionary<string, object>;
 			}
-		}
+		}*/
 
 	}
 

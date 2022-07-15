@@ -61,7 +61,6 @@
     <Compile Include="Assets\NCMB\Script\NCMBUser.cs" />
     <Compile Include="Assets\Script\Button_Manager.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBAddOperation.cs" />
-    <Compile Include="Assets\NCMB\Script\NCMBAppleAuthenManager.cs" />
     <Compile Include="Assets\NCMB\Script\Task\NCMBObjectTaskExtension.cs" />
     <Compile Include="Assets\NCMB\Script\SimpleJSON.cs" />
     <Compile Include="Assets\Script\Rhythm_Manager.cs" />

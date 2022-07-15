@@ -391,7 +391,6 @@
 "Assets/NCMB/Script/NCMBAddOperation.cs"
 "Assets/NCMB/Script/NCMBAddUniqueOperation.cs"
 "Assets/NCMB/Script/NCMBAnalytics.cs"
-"Assets/NCMB/Script/NCMBAppleAuthenManager.cs"
 "Assets/NCMB/Script/NCMBAppleParameters.cs"
 "Assets/NCMB/Script/NCMBCallback.cs"
 "Assets/NCMB/Script/NCMBClassNameAttribute.cs"
