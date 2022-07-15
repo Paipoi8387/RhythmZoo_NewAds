@@ -368,6 +368,7 @@
 "Assets/GoogleMobileAds/Editor/GoogleMobileAdsSettingsEditor.cs"
 "Assets/GoogleMobileAds/Editor/ManifestProcessor.cs"
 "Assets/GoogleMobileAds/Editor/PListProcessor.cs"
+"Assets/GoogleMobileAds/Editor/XcodeSwiftVersionPostProcess.cs"
 -langversion:9.0
 
 /deterministic

@@ -15,7 +15,7 @@ C:/Users/meida/RhythmZoo_NewAds
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58780
+49820
 Successfully changed project path to: C:/Users/meida/RhythmZoo_NewAds
 C:/Users/meida/RhythmZoo_NewAds
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/meida/RhythmZoo_NewAds
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 458.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 212.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,97 +63,120 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.052307 seconds.
+Registered in 0.032665 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 630.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 244.25 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.054 seconds
+- Completed reload, in  1.525 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3056ms)
-		BeginReloadAssembly (280ms)
+	ReloadAssembly (1529ms)
+		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (2306ms)
-			LoadAssemblies (274ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1075ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
+			SetupTypeCache (227ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (1561ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (690ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (267ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (631ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (428ms)
-				ProcessInitializeOnLoadMethodAttributes (227ms)
+				InitializePlatformSupportModulesInManaged (113ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (244ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.081345 seconds.
+Registered in 0.026502 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1253.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 150.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\meida\RhythmZoo_NewAds\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <3df1727680a4410c8922c5d71cde3a04>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <3df1727680a4410c8922c5d71cde3a04>:0 
+  at Google.ProjectSettings.Save () [0x000a1] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:828 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at Z:/tmp/tmp.MQ461w6xyu/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:1007)
+Google.IOSResolver:.cctor () (at Z:/tmp/tmp.MQ461w6xyu/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:701)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  7.284 seconds
+- Completed reload, in  2.177 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7290ms)
-		BeginReloadAssembly (651ms)
+	ReloadAssembly (2178ms)
+		BeginReloadAssembly (304ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (185ms)
-		EndReloadAssembly (6114ms)
-			LoadAssemblies (363ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (1703ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1841ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (243ms)
-			SetupLoadedEditorAssemblies (3426ms)
+			SetupTypeCache (421ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (930ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (112ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1254ms)
-				BeforeProcessingInitializeOnLoad (431ms)
-				ProcessInitializeOnLoadAttributes (1299ms)
-				ProcessInitializeOnLoadMethodAttributes (281ms)
-				AfterProcessingInitializeOnLoad (47ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (150ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (223.1 KB). Loaded Objects now: 4609.
-Memory consumption went from 160.3 MB to 160.1 MB.
-Total: 10.122300 ms (FindLiveObjects: 0.650800 ms CreateObjectMapping: 0.436200 ms MarkObjects: 8.603900 ms  DeleteObjects: 0.427700 ms)
+Unloading 4159 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (223.1 KB). Loaded Objects now: 4608.
+Memory consumption went from 160.4 MB to 160.1 MB.
+Total: 8.242900 ms (FindLiveObjects: 0.427500 ms CreateObjectMapping: 0.467300 ms MarkObjects: 6.894200 ms  DeleteObjects: 0.451600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,63 +191,86 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 695798.172231 seconds.
-  path: Assets/NCMB/Script/NCMBAppleAuthenManager.cs
-  artifactKey: Guid(a7899b2c2508a4a6aa06cb06dce4b897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBAppleAuthenManager.cs using Guid(a7899b2c2508a4a6aa06cb06dce4b897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3b82eed831dbb5fccb37aa49c308b6') in 0.074210 seconds 
+  Time since last request: 24652.828166 seconds.
+  path: Assets/GoogleMobileAds
+  artifactKey: Guid(e6d6c8bcba39440abae1c5ccc063c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds using Guid(e6d6c8bcba39440abae1c5ccc063c635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbf402ce06fedbec2cc087a55d22aab') in 0.017853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.111470 seconds.
-  path: Assets/NCMB/Script/NCMBAppleParameters.cs
-  artifactKey: Guid(a4067d5500cd841df88c5e19679c82f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBAppleParameters.cs using Guid(a4067d5500cd841df88c5e19679c82f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f6c33541ac5f3759de9ba57a16d9f5') in 0.021898 seconds 
+  Time since last request: 38.197163 seconds.
+  path: Assets/GoogleMobileAds/Editor/XcodeSwiftVersionPostProcess.cs
+  artifactKey: Guid(142a82cccdf50984196675c7ef154bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/XcodeSwiftVersionPostProcess.cs using Guid(142a82cccdf50984196675c7ef154bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e7a91fa47f0848aa32f0b3c3e48b23') in 0.044809 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.482230 seconds.
+Registered in 0.034082 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\meida\RhythmZoo_NewAds\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <3df1727680a4410c8922c5d71cde3a04>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <3df1727680a4410c8922c5d71cde3a04>:0 
+  at Google.ProjectSettings.Save () [0x000a1] in Z:\tmp\tmp.zlN8ncJz9n\third_party\unity\unity_jar_resolver\source\VersionHandlerImpl\src\ProjectSettings.cs:828 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at Z:/tmp/tmp.MQ461w6xyu/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:1007)
+Google.IOSResolver:.cctor () (at Z:/tmp/tmp.MQ461w6xyu/third_party/unity/unity_jar_resolver/source/IOSResolver/src/IOSResolver.cs:701)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Z:/tmp/tmp.zlN8ncJz9n/third_party/unity/unity_jar_resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  4.866 seconds
+- Completed reload, in  2.081 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4868ms)
-		BeginReloadAssembly (413ms)
+	ReloadAssembly (2082ms)
+		BeginReloadAssembly (327ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (110ms)
-		EndReloadAssembly (4043ms)
-			LoadAssemblies (306ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (1559ms)
+			LoadAssemblies (206ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (1276ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (176ms)
-			SetupLoadedEditorAssemblies (2049ms)
+			SetupTypeCache (452ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (711ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (136ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (306ms)
-				ProcessInitializeOnLoadAttributes (1416ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
-				AfterProcessingInitializeOnLoad (32ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 14.34 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4141 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (190.5 KB). Loaded Objects now: 4611.
-Memory consumption went from 158.9 MB to 158.8 MB.
-Total: 9.301900 ms (FindLiveObjects: 0.549400 ms CreateObjectMapping: 0.391700 ms MarkObjects: 7.996400 ms  DeleteObjects: 0.360800 ms)
+Unloading 4142 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (190.6 KB). Loaded Objects now: 4612.
+Memory consumption went from 159.1 MB to 158.9 MB.
+Total: 8.525300 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.209100 ms MarkObjects: 7.697600 ms  DeleteObjects: 0.258700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -239,306 +285,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 111.275960 seconds.
-  path: Assets/NCMB/Script/SimpleJSON.cs
-  artifactKey: Guid(9791d88f5a954418b868d8c2c65b273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/SimpleJSON.cs using Guid(9791d88f5a954418b868d8c2c65b273e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dbc5ed0cb053f64bbc54cd7833da0c') in 0.034275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.467747 seconds.
-  path: Assets/NCMB/Script/NCMBUtility.cs
-  artifactKey: Guid(ded60dce736d947e0a6cbe0fedba7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBUtility.cs using Guid(ded60dce736d947e0a6cbe0fedba7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aed3c1f4aa664b23e199d286dfdc9e7') in 0.021692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.280829 seconds.
-  path: Assets/NCMB/Script/NCMBUser.cs
-  artifactKey: Guid(08535775311bb41c785debf2e8c2d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBUser.cs using Guid(08535775311bb41c785debf2e8c2d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc9862dd797f25b6e1f3cac785a924c') in 0.019148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.905924 seconds.
-  path: Assets/NCMB/Script/NCMBTwitterParameters.cs
-  artifactKey: Guid(ac8887c1f8b8e4f9eabbd0d727af2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBTwitterParameters.cs using Guid(ac8887c1f8b8e4f9eabbd0d727af2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13be2c685f933b565533faee030f0a38') in 0.019701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.901212 seconds.
-  path: Assets/NCMB/Script/NCMBSetOperation.cs
-  artifactKey: Guid(96b4939e90bbe4bf9934cc4bb4428df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBSetOperation.cs using Guid(96b4939e90bbe4bf9934cc4bb4428df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a62face65968b257731e4728eb50bb2') in 0.020289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.600396 seconds.
-  path: Assets/NCMB/Script/NCMBScript.cs
-  artifactKey: Guid(03cf56457de5943fb8a57c32ac177e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBScript.cs using Guid(03cf56457de5943fb8a57c32ac177e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9901949e3d2db6fdf745b806baf4e8b4') in 0.020654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.374590 seconds.
-  path: Assets/NCMB/Script/NCMBRole.cs
-  artifactKey: Guid(4f8d3d90e80ee4625a22ddc896072246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBRole.cs using Guid(4f8d3d90e80ee4625a22ddc896072246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e16c8357ea04a721959d1d8f6e835f') in 0.032304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.636225 seconds.
-  path: Assets/NCMB/Script/NCMBRemoveOperation.cs
-  artifactKey: Guid(90a6da30b38fe45c1817946e798d1377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBRemoveOperation.cs using Guid(90a6da30b38fe45c1817946e798d1377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdd15cdc9af2228ced701f9f21b99f9') in 0.018880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.530879 seconds.
-  path: Assets/NCMB/Script/NCMBRelationOperation.cs
-  artifactKey: Guid(22b91f5d4bc9c44368babc2479495904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBRelationOperation.cs using Guid(22b91f5d4bc9c44368babc2479495904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95b293b54a42537078cda97f5157371') in 0.018558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.818471 seconds.
-  path: Assets/NCMB/Script/NCMBRelation.cs
-  artifactKey: Guid(d31c75cddd53e48eb86e9ebe586217aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBRelation.cs using Guid(d31c75cddd53e48eb86e9ebe586217aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435af8f1da62afd3bbc28e0d65afea96') in 0.019206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.058140 seconds.
-  path: Assets/NCMB/Script/NCMBObject.cs
-  artifactKey: Guid(52dcd0f5907fd4bc99d0d6d457125dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBObject.cs using Guid(52dcd0f5907fd4bc99d0d6d457125dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2990a6cc3e64a97271b0c8ae0797915') in 0.018469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.592694 seconds.
-  path: Assets/NCMB/Script/NCMBInstallation.cs
-  artifactKey: Guid(f8c701708852448c98676118ad73c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBInstallation.cs using Guid(f8c701708852448c98676118ad73c267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f428cb9dd6fe35c4e3a13a48ee437a') in 0.017765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.712183 seconds.
-  path: Assets/NCMB/Script/NCMBIncrementOperation.cs
-  artifactKey: Guid(89cf7a30f50ab4dd2a036080bc7c42cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBIncrementOperation.cs using Guid(89cf7a30f50ab4dd2a036080bc7c42cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb96a50c87348e456460ee9562178528') in 0.025757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.110591 seconds.
-  path: Assets/NCMB/Script/NCMBGeoPoint.cs
-  artifactKey: Guid(6f1de61f7d28f4cb4a9f06b9eb8c1f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBGeoPoint.cs using Guid(6f1de61f7d28f4cb4a9f06b9eb8c1f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4562519503ac063f48e768511814a87') in 0.019846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.863547 seconds.
-  path: Assets/NCMB/Script/NCMBFile.cs
-  artifactKey: Guid(b9f84621a190d4aed91327bd65a7b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBFile.cs using Guid(b9f84621a190d4aed91327bd65a7b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0debefac423552d4d9280ad71cae07') in 0.019680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.613884 seconds.
-  path: Assets/NCMB/Script/NCMBFieldOperation.cs
-  artifactKey: Guid(7dbae109a78c74f23be3c0056f63fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBFieldOperation.cs using Guid(7dbae109a78c74f23be3c0056f63fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1cc6c96499facbf41809ebd4a11764') in 0.021448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.686772 seconds.
-  path: Assets/NCMB/Script/NCMBFacebookParameters.cs
-  artifactKey: Guid(032c97d0ce5414f599a7d409c03918e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBFacebookParameters.cs using Guid(032c97d0ce5414f599a7d409c03918e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653e1ccd8569d46d121baec0761f0fe9') in 0.020922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.190102 seconds.
-  path: Assets/NCMB/Script/NCMBException.cs
-  artifactKey: Guid(1be19a34d1d7c45d6a275e9d186bd033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBException.cs using Guid(1be19a34d1d7c45d6a275e9d186bd033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e799cf21f3a92ea912be9a372f9a605c') in 0.431532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.472787 seconds.
-  path: Assets/NCMB/Script/NCMBDeleteOperation.cs
-  artifactKey: Guid(284c5816f5e314c7ea630cecedeb37c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBDeleteOperation.cs using Guid(284c5816f5e314c7ea630cecedeb37c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3aa3dca4212cd4c1ed26c41a53e6ab') in 0.017655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.608775 seconds.
-  path: Assets/NCMB/Script/NCMBDebug.cs
-  artifactKey: Guid(a8e82cc7fd865435c9dbf395073e3716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBDebug.cs using Guid(a8e82cc7fd865435c9dbf395073e3716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7814d2698a97c236164b6143f7ea59ec') in 0.044366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.904868 seconds.
-  path: Assets/NCMB/Script/NCMBConnection.cs
-  artifactKey: Guid(5c605fb6cda1f45b889e51ad123c7ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBConnection.cs using Guid(5c605fb6cda1f45b889e51ad123c7ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b32e6fefe14aa9ded05930c4af82cc1') in 0.013579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.295990 seconds.
-  path: Assets/NCMB/Script/NCMBClassNameAttribute.cs
-  artifactKey: Guid(e7d908ae03a964d26afaa3302cdfdc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBClassNameAttribute.cs using Guid(e7d908ae03a964d26afaa3302cdfdc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f2eb5031c0fffd1ee99841e4bbe56d') in 0.021208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.089574 seconds.
-  path: Assets/NCMB/Script/NCMBCallback.cs
-  artifactKey: Guid(4c8f79e4ae03e479e90e31f57e92049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBCallback.cs using Guid(4c8f79e4ae03e479e90e31f57e92049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5875fed6b268e3ef5b69f93a775fcb') in 0.018378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.291541 seconds.
-  path: Assets/NCMB/Script/NCMBAddUniqueOperation.cs
-  artifactKey: Guid(343d028bbf17841c1a5b5d593b5c4b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBAddUniqueOperation.cs using Guid(343d028bbf17841c1a5b5d593b5c4b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd4b0f589c134a2d5c77bc7ff3a6ddb') in 0.026786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.062936 seconds.
-  path: Assets/NCMB/Script/NCMBAddOperation.cs
-  artifactKey: Guid(641d159efdee64100aa770a03c98c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBAddOperation.cs using Guid(641d159efdee64100aa770a03c98c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000c2157f31d500e8f4153c62d968a50') in 0.026168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.069609 seconds.
-  path: Assets/NCMB/Script/NCMBACL.cs
-  artifactKey: Guid(e4adc78832b3d4e99be1414893e7c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NCMBACL.cs using Guid(e4adc78832b3d4e99be1414893e7c3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14aabea573fb8dacbb15505522b89592') in 0.018742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.574794 seconds.
-  path: Assets/NCMB/Script/NamespaceDoc.cs
-  artifactKey: Guid(29014881f817540efb2c76c9c163dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/NamespaceDoc.cs using Guid(29014881f817540efb2c76c9c163dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6898af1292584720b027468264053fb2') in 0.018278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.822328 seconds.
-  path: Assets/NCMB/Script/MiniJSON.cs
-  artifactKey: Guid(c640a340b2d2b41a9a4a8f845180c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/MiniJSON.cs using Guid(c640a340b2d2b41a9a4a8f845180c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c458d286d682ac599364ed29c162a74') in 0.018697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.968313 seconds.
-  path: Assets/NCMB/Script/MimeTypeMap.cs
-  artifactKey: Guid(20e35df566eb64a5bb16b540686a85b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/MimeTypeMap.cs using Guid(20e35df566eb64a5bb16b540686a85b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c03c571e6e2c6ef19e7d7be15330e2f') in 0.021437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.767997 seconds.
-  path: Assets/NCMB/Script/ExtensionsClass.cs
-  artifactKey: Guid(64551cf91340e42799d7ccaa55fe35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/ExtensionsClass.cs using Guid(64551cf91340e42799d7ccaa55fe35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9383670e756fafc89fbb1dd74642e973') in 0.019488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.833743 seconds.
-  path: Assets/NCMB/Script/CommonConstant.cs
-  artifactKey: Guid(1dfa1231902c7451fb7203a8763e11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/CommonConstant.cs using Guid(1dfa1231902c7451fb7203a8763e11af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bf40f7d2c1152ad90b43c51f3b8752') in 0.019518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.499929 seconds.
-  path: Assets/NCMB/Script/Task/NCMBObjectTaskExtension.cs
-  artifactKey: Guid(2fa07ea61756c49dc85f4ef95e024ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/Task/NCMBObjectTaskExtension.cs using Guid(2fa07ea61756c49dc85f4ef95e024ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5bd32192f2333cd8b572b34a5a9a4b') in 0.023233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.387131 seconds.
-  path: Assets/NCMB/Script/Task/NcmbQueryTaskExtension.cs
-  artifactKey: Guid(81621f12381164dc1a89a9b6cc991d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/Task/NcmbQueryTaskExtension.cs using Guid(81621f12381164dc1a89a9b6cc991d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a789506998251a7a034bc007a41bfbb') in 0.122444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.461699 seconds.
-  path: Assets/NCMB/Script/Task/NCMBScriptTaskExtension.cs
-  artifactKey: Guid(c829bebbe1ac644b387f8c481d967b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/Task/NCMBScriptTaskExtension.cs using Guid(c829bebbe1ac644b387f8c481d967b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54125036c55bfa1da889cfd9bc665540') in 0.021066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.056408 seconds.
-  path: Assets/NCMB/Script/Task/NCMBUserTaskExtension.cs
-  artifactKey: Guid(9080486c37a424951a660a7928a897f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/Task/NCMBUserTaskExtension.cs using Guid(9080486c37a424951a660a7928a897f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90152bb53b541787f30f3ac6579a409e') in 0.019141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.634684 seconds.
-  path: Assets/NCMB/Script/Task/NCMBUserTaskMethods.cs
-  artifactKey: Guid(bd00ed85226044e2e88e3e25ed5ada7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/Script/Task/NCMBUserTaskMethods.cs using Guid(bd00ed85226044e2e88e3e25ed5ada7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb111f392bc93786ae1940f3709c622c') in 0.020609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.916278 seconds.
-  path: Assets/NCMB/PlayModeTest
-  artifactKey: Guid(3535a88abe923421c9e3b3a8fabb80d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest using Guid(3535a88abe923421c9e3b3a8fabb80d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b5edabdf1bda8ac9a9aa12c7c76807') in 0.028693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.700738 seconds.
-  path: Assets/NCMB/PlayModeTest/Editor
-  artifactKey: Guid(4a438952e174c4b0e99707f81b2b91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest/Editor using Guid(4a438952e174c4b0e99707f81b2b91c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c21abf09a3f9ad0c468413845913cb') in 0.018173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.103200 seconds.
-  path: Assets/NCMB/PlayModeTest/Editor/NCMBMenu.cs
-  artifactKey: Guid(74c775353558e4e7c8216b1dca76852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest/Editor/NCMBMenu.cs using Guid(74c775353558e4e7c8216b1dca76852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2f26e751124ca7d599ad9244b7a8f4') in 0.022304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.940652 seconds.
-  path: Assets/NCMB/PlayModeTest/Editor/PreBuildAndroid.cs
-  artifactKey: Guid(30841173a70ce4b29b5c839ab361c4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest/Editor/PreBuildAndroid.cs using Guid(30841173a70ce4b29b5c839ab361c4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1c544b1e4733a109c3b22e302f3806') in 0.022454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.243495 seconds.
-  path: Assets/NCMB/PlayModeTest/Editor/SimpleJSON.cs
-  artifactKey: Guid(77388f14ce9af4b9fbcc0d308b0e3929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest/Editor/SimpleJSON.cs using Guid(77388f14ce9af4b9fbcc0d308b0e3929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0241c1544dae6a4ddf2e2fa8dbe00d94') in 0.006749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.690598 seconds.
-  path: Assets/NCMB/PlayModeTest/Editor/SimpleJSONBinary.cs
-  artifactKey: Guid(c3e6b7f52d3e14fc5b6c7a390433bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest/Editor/SimpleJSONBinary.cs using Guid(c3e6b7f52d3e14fc5b6c7a390433bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4c28fffdcb22773a9c0e08899aba33') in 0.020354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.354721 seconds.
-  path: Assets/NCMB/PlayModeTest/Editor/SimpleJSONUnity.cs
-  artifactKey: Guid(f21c6950074b0419a97bfda5b4305390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest/Editor/SimpleJSONUnity.cs using Guid(f21c6950074b0419a97bfda5b4305390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301db1f7104f1df0e228bb39ba45e349') in 0.019269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.493158 seconds.
-  path: Assets/NCMB/PlayModeTest/Editor/UpdateXcodeProject.cs
-  artifactKey: Guid(ab67d6dc359264a30ae53cc2496d34b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NCMB/PlayModeTest/Editor/UpdateXcodeProject.cs using Guid(ab67d6dc359264a30ae53cc2496d34b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc17eb99ccf38aa69f6f654aaf4eae3e') in 0.020031 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.052346 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.357 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4360ms)
-		BeginReloadAssembly (476ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (32ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (145ms)
-		EndReloadAssembly (3437ms)
-			LoadAssemblies (320ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1056ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (184ms)
-			SetupLoadedEditorAssemblies (1596ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (129ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (295ms)
-				ProcessInitializeOnLoadAttributes (947ms)
-				ProcessInitializeOnLoadMethodAttributes (164ms)
-				AfterProcessingInitializeOnLoad (55ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (58ms)
-Platform modules already initialized, skipping
+  Time since last request: 75.159294 seconds.
+  path: Assets/GoogleMobileAds/Editor/XcodeSwiftVersionPostProcess.cs
+  artifactKey: Guid(142a82cccdf50984196675c7ef154bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/XcodeSwiftVersionPostProcess.cs using Guid(142a82cccdf50984196675c7ef154bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1429aa517072cbef54f66ddd87dd1fc7') in 0.023186 seconds 
