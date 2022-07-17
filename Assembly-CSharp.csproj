@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scenes\QuickStartScene\QuickStart.cs" />
     <Compile Include="Assets\NCMB\Script\Task\NCMBUserTaskMethods.cs" />
     <Compile Include="Assets\Script\Clap.cs" />
+    <Compile Include="Assets\Script\InterfaceAdjustment.cs" />
     <Compile Include="Assets\Script\Dram.cs" />
     <Compile Include="Assets\NCMB\Script\ExtensionsClass.cs" />
     <Compile Include="Assets\NCMB\Script\NCMBGeoPoint.cs" />

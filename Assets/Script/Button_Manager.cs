@@ -87,16 +87,6 @@ public class Button_Manager : MonoBehaviour
     //ホームに遷移
     public void HomeButton()
     {
-        SceneManager.LoadScene("Home");
-    }
-    //アクションに遷移
-    public void ActionButton(string stage_name)
-    {
-        admob_manager.Hide_Banner();
-
-        PlayerPrefs.SetString("STAGE_NAME", stage_name);
-        //Debug.Log(PlayerPrefs.GetInt("STAGE_NAME", 1));
-
         //インタースティシャルを流す
         int play_num = PlayerPrefs.GetInt("Play_Num", 1);
         PlayerPrefs.SetInt("Play_Num", play_num + 1);
@@ -106,6 +96,15 @@ public class Button_Manager : MonoBehaviour
             PlayerPrefs.SetInt("Play_Num", 1);
             //sound_source.PlayOneShot(coin_sound);
         }
+        SceneManager.LoadScene("Home");
+    }
+    //アクションに遷移
+    public void ActionButton(string stage_name)
+    {
+        admob_manager.Hide_Banner();
+
+        PlayerPrefs.SetString("STAGE_NAME", stage_name);
+        //Debug.Log(PlayerPrefs.GetInt("STAGE_NAME", 1));
         //引数渡しのが良いかも
         SceneManager.LoadScene("Action");
     }

@@ -437,6 +437,7 @@
 "Assets/Script/Grab.cs"
 "Assets/Script/Home_Manager.cs"
 "Assets/Script/HyperlinkUI.cs"
+"Assets/Script/InterfaceAdjustment.cs"
 "Assets/Script/Keeper.cs"
 "Assets/Script/Ranking_Manager.cs"
 "Assets/Script/Rhythm_Manager.cs"
