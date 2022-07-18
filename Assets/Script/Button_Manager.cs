@@ -94,9 +94,12 @@ public class Button_Manager : MonoBehaviour
         {
             admob_manager.RequestInterstitial();
             PlayerPrefs.SetInt("Play_Num", 1);
-            //sound_source.PlayOneShot(coin_sound);
+            PlayerPrefs.SetString("SCENE_NAME", "Home");
         }
-        SceneManager.LoadScene("Home");
+        else
+        {
+            SceneManager.LoadScene("Home");
+        }
     }
     //アクションに遷移
     public void ActionButton(string stage_name)
@@ -119,9 +122,12 @@ public class Button_Manager : MonoBehaviour
         {
             admob_manager.RequestInterstitial();
             PlayerPrefs.SetInt("Play_Num", 1);
-            //sound_source.PlayOneShot(coin_sound);
+            PlayerPrefs.SetString("SCENE_NAME", "Action");
         }
-        SceneManager.LoadScene("Action");
+        else
+        {
+            SceneManager.LoadScene("Action");
+        }
     }
 
 
@@ -171,7 +177,6 @@ public class Button_Manager : MonoBehaviour
         Register_Profile.SetActive(false);
         PlayerPrefs.SetInt("FINISH_REGISTER", 1);
         ranking_manager.Register_Data_First("Dram");
-        admob_manager.DelayAdmob();
     }
 
     public void Get_Coin_After_Ad()

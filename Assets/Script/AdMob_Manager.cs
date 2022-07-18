@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using GoogleMobileAds.Api;
 using System;
+using UnityEngine.SceneManagement;
 
 public class AdMob_Manager : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class AdMob_Manager : MonoBehaviour
 
     public void Start()
     {
-        Invoke("DelayIDFA", 1);
+        //Invoke("DelayIDFA", 1);
+        DelayAdmob();
     }
 
     void DelayIDFA()
@@ -22,13 +24,16 @@ public class AdMob_Manager : MonoBehaviour
 
     public void DelayAdmob()
     {
-        MobileAds.Initialize(initStatus => { });
+        if (SceneManager.GetActiveScene().name == "Home")
+        {
+            MobileAds.Initialize(initStatus => { });
 
-        RequestBanner();
-        RequestReward();
+            RequestBanner();
+            RequestReward();
 
-        //この処理をしなくても表示されるが、アクションシーンから戻ってきたときのために表示処理
-        bannerView.Show();
+            //この処理をしなくても表示されるが、アクションシーンから戻ってきたときのために表示処理
+            bannerView.Show();
+        }
     }
 
     /// <summary>
@@ -81,6 +86,7 @@ public class AdMob_Manager : MonoBehaviour
     public void Hide_Banner()
     {
         bannerView.Hide();
+        Debug.Log("Hide");
     }
 
 
@@ -159,5 +165,6 @@ public class AdMob_Manager : MonoBehaviour
         //メモリリーク阻止！
         interstitialAd.Destroy();
         RequestInterstitial();
+        SceneManager.LoadScene(PlayerPrefs.GetString("SCENE_NAME", ""));
     }
 }
