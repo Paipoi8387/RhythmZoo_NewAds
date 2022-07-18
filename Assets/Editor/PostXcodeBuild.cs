@@ -44,12 +44,8 @@ public class PostXcodeBuild
 
    private static LocalizationInfo[] localizationInfo = {
        new LocalizationInfo("en", false, new InfoplistInfo[]
-       {new InfoplistInfo("CFBundleDisplayName",            "英語のタイトル"),
+       {new InfoplistInfo("CFBundleDisplayName",            "Rhythm Zoo"),
         new InfoplistInfo("NSUserTrackingUsageDescription", "Please set to Allow to avoid displaying inappropriate advertisements"),
-       }),
-       new LocalizationInfo("ja", true, new InfoplistInfo[]
-       {new InfoplistInfo("CFBundleDisplayName",            "日本語のタイトル"),
-        new InfoplistInfo("NSUserTrackingUsageDescription", "不適切な広告の表示を避けるために”トラッキングを許可”に設定してください"),
        })
    };
 
@@ -173,7 +169,6 @@ public class PostXcodeBuild
 
    static void addAppTrackingTransparency(string pathToBuiltProject)
    {
-       // PBXProjectクラスというのを用いてAppTrackingTransparency.frameworkを追加していきます（ステップ３）
        string pbxProjectPath = PBXProject.GetPBXProjectPath(pathToBuiltProject);
        PBXProject pbxProject = new PBXProject();
        pbxProject.ReadFromFile(pbxProjectPath);
