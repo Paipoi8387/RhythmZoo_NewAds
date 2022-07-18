@@ -171,6 +171,7 @@ public class Button_Manager : MonoBehaviour
         Register_Profile.SetActive(false);
         PlayerPrefs.SetInt("FINISH_REGISTER", 1);
         ranking_manager.Register_Data_First("Dram");
+        admob_manager.DelayAdmob();
     }
 
     public void Get_Coin_After_Ad()

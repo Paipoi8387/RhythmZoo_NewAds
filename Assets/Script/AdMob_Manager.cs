@@ -18,10 +18,9 @@ public class AdMob_Manager : MonoBehaviour
     void DelayIDFA()
     {
         ShowAttDialog.RequestIDFA();
-        Invoke("DelayAdmob", 1);
     }
 
-    void DelayAdmob()
+    public void DelayAdmob()
     {
         MobileAds.Initialize(initStatus => { });
 
