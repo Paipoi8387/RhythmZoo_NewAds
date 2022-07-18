@@ -4,8 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class Button_Manager : MonoBehaviour
 {
-    [SerializeField] AdMob_Manager admob_manager;
-
     public static bool is_touched = false;
     //ドラムアクション時の左右ボタン
     public enum Button_Location {Null,Right,Left};
@@ -83,29 +81,15 @@ public class Button_Manager : MonoBehaviour
         button_location = Button_Location.Left;
         is_touched = true;
     }
-    
+
     //ホームに遷移
     public void HomeButton()
     {
-        //インタースティシャルを流す
-        int play_num = PlayerPrefs.GetInt("Play_Num", 1);
-        PlayerPrefs.SetInt("Play_Num", play_num + 1);
-        if (play_num % 5 == 0)
-        {
-            admob_manager.RequestInterstitial();
-            PlayerPrefs.SetInt("Play_Num", 1);
-            PlayerPrefs.SetString("SCENE_NAME", "Home");
-        }
-        else
-        {
-            SceneManager.LoadScene("Home");
-        }
+        SceneManager.LoadScene("Home");
     }
     //アクションに遷移
     public void ActionButton(string stage_name)
     {
-        admob_manager.Hide_Banner();
-
         PlayerPrefs.SetString("STAGE_NAME", stage_name);
         //Debug.Log(PlayerPrefs.GetInt("STAGE_NAME", 1));
         //引数渡しのが良いかも
@@ -115,19 +99,7 @@ public class Button_Manager : MonoBehaviour
     //アクションに遷移
     public void RetryButton()
     {
-        //インタースティシャルを流す
-        int play_num = PlayerPrefs.GetInt("Play_Num", 1);
-        PlayerPrefs.SetInt("Play_Num", play_num + 1);
-        if (play_num % 5 == 0)
-        {
-            admob_manager.RequestInterstitial();
-            PlayerPrefs.SetInt("Play_Num", 1);
-            PlayerPrefs.SetString("SCENE_NAME", "Action");
-        }
-        else
-        {
-            SceneManager.LoadScene("Action");
-        }
+        SceneManager.LoadScene("Action");
     }
 
 
@@ -192,11 +164,11 @@ public class Button_Manager : MonoBehaviour
         Confirm_Menu.SetActive(true);
         release_stage_name = stage_name;
         //必要なコインを設定
-        if (stage_name == "Eat") need_coin = 1000;
-        else if (stage_name == "Grab") need_coin = 1000;
-        else if (stage_name == "Clap") need_coin = 1000;
-        else if (stage_name == "Dondon") need_coin = 1000;
-        else if (stage_name == "Remix") need_coin = 2000;
+        if (stage_name == "Eat") need_coin = 10;
+        else if (stage_name == "Grab") need_coin = 20;
+        else if (stage_name == "Clap") need_coin = 30;
+        else if (stage_name == "Dondon") need_coin = 40;
+        else if (stage_name == "Remix") need_coin = 50;
 
         confirm_text.text = "Do you get New Stage\n"
                           + "for <color=#ff0000>" + need_coin + "</color> coins ?";       
@@ -213,7 +185,7 @@ public class Button_Manager : MonoBehaviour
         ranking_manager.Register_Data_First(release_stage_name);
         Check_Released();
         home_manager.Display_Stage_Button();
-
+        sound_source.PlayOneShot(coin_sound);
         Confirm_Menu.SetActive(false);
     }
 
