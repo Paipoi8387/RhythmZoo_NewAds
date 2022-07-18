@@ -18,7 +18,6 @@ public class AdMob_Manager : MonoBehaviour
 
         RequestBanner();
         RequestReward();
-        //RequestInterstitial();
 
         //この処理をしなくても表示されるが、アクションシーンから戻ってきたときのために表示処理
         bannerView.Show();
@@ -39,8 +38,8 @@ public class AdMob_Manager : MonoBehaviour
         //adUnitId_banner = "ca-app-pub-3940256099942544/6300978111";  //　テスト
         adUnitId_banner = "ca-app-pub-1567966195595585/4197618276"; // 本番
 #elif UNITY_IPHONE
-        //adUnitId_banner = "ca-app-pub-3940256099942544/2934735716";  //　テスト
-        adUnitId_banner = "ca-app-pub-1567966195595585/7370576529"; // 本番
+        adUnitId_banner = "ca-app-pub-3940256099942544/2934735716";  //　テスト
+        //adUnitId_banner = "ca-app-pub-1567966195595585/7370576529"; // 本番
 #else
         string adUnitId = "unexpected_platform";
 #endif
@@ -92,8 +91,8 @@ public class AdMob_Manager : MonoBehaviour
         //adUnitId_reward = "ca-app-pub-3940256099942544/5224354917";  //テスト
         adUnitId_reward = "ca-app-pub-1567966195595585/3211839669";  //本番
 #elif UNITY_IOS
-        //adUnitId_reward = "ca-app-pub-3940256099942544/1712485313";  //テスト
-        adUnitId_reward = "ca-app-pub-1567966195595585/4880144552";  //本番
+        adUnitId_reward = "ca-app-pub-3940256099942544/1712485313";  //テスト
+        //adUnitId_reward = "ca-app-pub-1567966195595585/4880144552";  //本番
 #endif
         this.rewardedAd = new RewardedAd(adUnitId_reward);
         this.rewardedAd.OnUserEarnedReward += HandleUserEarnedReward;
@@ -134,8 +133,8 @@ public class AdMob_Manager : MonoBehaviour
         //adUnitId_interstitial = "ca-app-pub-3940256099942544/1033173712";  //テスト
         adUnitId_interstitial = "ca-app-pub-1567966195595585/8363742346";  //本番
 #elif UNITY_IOS
-        //adUnitId_interstitial = "ca-app-pub-3940256099942544/4411468910";  //テスト
-        adUnitId_interstitial = "ca-app-pub-1567966195595585/1714573510";  //本番
+        adUnitId_interstitial = "ca-app-pub-3940256099942544/4411468910";  //テスト
+        //adUnitId_interstitial = "ca-app-pub-1567966195595585/1714573510";  //本番
 #endif
         this.interstitialAd = new InterstitialAd(adUnitId_interstitial);
         this.interstitialAd.OnAdClosed += HandleOnAdClosed;
