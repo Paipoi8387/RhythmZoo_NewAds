@@ -12,8 +12,17 @@ public class AdMob_Manager : MonoBehaviour
 
     public void Start()
     {
+        Invoke("DelayIDFA", 1);
+    }
 
-        // Google AdMob Initial
+    void DelayIDFA()
+    {
+        ShowAttDialog.RequestIDFA();
+        Invoke("DelayAdmob", 1);
+    }
+
+    void DelayAdmob()
+    {
         MobileAds.Initialize(initStatus => { });
 
         RequestBanner();
@@ -22,7 +31,6 @@ public class AdMob_Manager : MonoBehaviour
         //この処理をしなくても表示されるが、アクションシーンから戻ってきたときのために表示処理
         bannerView.Show();
     }
-
 
     /// <summary>
     /// バナー広告
