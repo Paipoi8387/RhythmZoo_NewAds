@@ -3,7 +3,7 @@
   "Assemblies": [
     {
       "FullName": "Unity.2D.Animation.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-17T23:57:36.9886646Z"
+      "LastWriteTime": "2022-07-18T00:41:58.8684993Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -15,7 +15,7 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-17T23:57:36.1493895Z"
+      "LastWriteTime": "2022-07-18T00:41:58.1462975Z"
     },
     {
       "FullName": "netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
@@ -23,11 +23,11 @@
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-17T23:57:36.1002499Z"
+      "LastWriteTime": "2022-07-18T00:41:57.8733904Z"
     },
     {
       "FullName": "Unity.2D.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-17T23:57:36.1036421Z"
+      "LastWriteTime": "2022-07-18T00:41:57.9585682Z"
     },
     {
       "FullName": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -35,7 +35,7 @@
     },
     {
       "FullName": "Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-07-17T23:57:36.1116072Z"
+      "LastWriteTime": "2022-07-18T00:41:58.5144485Z"
     },
     {
       "FullName": "UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -66,8 +66,8 @@
       "LinkName": "7F9BDFAB3718C423",
       "AssemblyDependencyIndices": [
         0,
-        3,
         1,
+        3,
         5,
         4,
         2,
@@ -81,12 +81,12 @@
       "LinkName": "4E9252389FAD9FEE",
       "AssemblyDependencyIndices": [
         0,
-        6,
         1,
         2,
         3,
         5,
         4,
+        6,
         7
       ]
     },
@@ -99,10 +99,10 @@
         2,
         8,
         9,
+        6,
         1,
         4,
-        3,
-        6
+        3
       ]
     },
     {

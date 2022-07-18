@@ -15,7 +15,7 @@ C:/Users/meida/RhythmZoo_NewAds
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65351
+60153
 Successfully changed project path to: C:/Users/meida/RhythmZoo_NewAds
 C:/Users/meida/RhythmZoo_NewAds
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/meida/RhythmZoo_NewAds
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 483.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 503.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,165 +63,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.037627 seconds.
+Registered in 0.042069 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 477.06 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 467.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.032 seconds
+- Completed reload, in  3.062 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4034ms)
-		BeginReloadAssembly (262ms)
+	ReloadAssembly (3064ms)
+		BeginReloadAssembly (285ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (3260ms)
-			LoadAssemblies (254ms)
+		EndReloadAssembly (2304ms)
+			LoadAssemblies (278ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (587ms)
+			SetupTypeCache (484ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (2306ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (1468ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (268ms)
+				InitializePlatformSupportModulesInManaged (297ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (478ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (485ms)
-				ProcessInitializeOnLoadMethodAttributes (1059ms)
+				RefreshPlugins (468ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (473ms)
+				ProcessInitializeOnLoadMethodAttributes (225ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.078051 seconds.
+Registered in 0.058302 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Could not resolve field token 0x04000009, due to: Could not load type of field 'AdMob_Manager:bannerView' (2) due to: Could not load file or assembly 'GoogleMobileAds, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:AdMob_Manager member:(null)
+Could not resolve field token 0x04000010, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000013, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000014, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000016, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000017, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000018, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000019, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x0400001a, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x0400001b, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x0400001c, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x0400001d, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x0400001e, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x0400001f, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000022, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000023, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000024, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000025, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000026, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000027, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not resolve field token 0x04000028, due to: Invalid type AdMob_Manager for instance field Button_Manager:admob_manager assembly:C:\Users\meida\RhythmZoo_NewAds\Library\ScriptAssemblies\Assembly-CSharp.dll type:Button_Manager member:(null)
+Could not load signature of AdMob_Manager:HandleUserEarnedReward due to: Could not load file or assembly 'GoogleMobileAds.Core, Version=7.1.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 535.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.829 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6832ms)
-		BeginReloadAssembly (559ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (197ms)
-		EndReloadAssembly (5819ms)
-			LoadAssemblies (390ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1643ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (229ms)
-			SetupLoadedEditorAssemblies (3178ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (107ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (536ms)
-				BeforeProcessingInitializeOnLoad (498ms)
-				ProcessInitializeOnLoadAttributes (1863ms)
-				ProcessInitializeOnLoadMethodAttributes (143ms)
-				AfterProcessingInitializeOnLoad (29ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (223.7 KB). Loaded Objects now: 4610.
-Memory consumption went from 160.3 MB to 160.1 MB.
-Total: 10.580200 ms (FindLiveObjects: 0.740800 ms CreateObjectMapping: 0.900800 ms MarkObjects: 8.564300 ms  DeleteObjects: 0.370000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.051264 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\meida\RhythmZoo_NewAds\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.044 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4045ms)
-		BeginReloadAssembly (441ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (26ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (3215ms)
-			LoadAssemblies (319ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (965ms)
-			ReleaseScriptCaches (8ms)
-			RebuildScriptCaches (170ms)
-			SetupLoadedEditorAssemblies (1530ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (118ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (300ms)
-				ProcessInitializeOnLoadAttributes (923ms)
-				ProcessInitializeOnLoadMethodAttributes (145ms)
-				AfterProcessingInitializeOnLoad (40ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (39ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 10.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4143 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (190.4 KB). Loaded Objects now: 4613.
-Memory consumption went from 158.9 MB to 158.8 MB.
-Total: 9.560500 ms (FindLiveObjects: 0.548200 ms CreateObjectMapping: 0.594600 ms MarkObjects: 8.017700 ms  DeleteObjects: 0.394800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
